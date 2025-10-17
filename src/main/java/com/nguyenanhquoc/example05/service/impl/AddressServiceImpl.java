@@ -11,7 +11,7 @@ import com.nguyenanhquoc.example05.entity.Address;
 import com.nguyenanhquoc.example05.entity.User;
 import com.nguyenanhquoc.example05.exceptions.APIException;
 import com.nguyenanhquoc.example05.exceptions.ResourceNotFoundException;
-import com.nguyenanhquoc.example05.payloads.AddressDTO;
+import com.nguyenanhquoc.example05.payloads.dto.AddressDTO;
 import com.nguyenanhquoc.example05.repository.AddressRepo;
 import com.nguyenanhquoc.example05.repository.UserRepo;
 import com.nguyenanhquoc.example05.service.AddressService;

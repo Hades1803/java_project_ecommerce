@@ -1,4 +1,4 @@
-package com.nguyenanhquoc.example05.payloads;
+package com.nguyenanhquoc.example05.payloads.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

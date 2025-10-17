@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nguyenanhquoc.example05.payloads.AddressDTO;
+import com.nguyenanhquoc.example05.payloads.dto.AddressDTO;
 import com.nguyenanhquoc.example05.service.AddressService;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

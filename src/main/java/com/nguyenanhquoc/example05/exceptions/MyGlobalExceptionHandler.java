@@ -14,7 +14,7 @@ import org.springframework.web.bind.MissingPathVariableException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.nguyenanhquoc.example05.payloads.APIResponse;
+import com.nguyenanhquoc.example05.payloads.response.APIResponse;
 
 import jakarta.validation.ConstraintViolationException;
 

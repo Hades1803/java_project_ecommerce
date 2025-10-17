@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nguyenanhquoc.example05.payloads.LoginCredentials;
-import com.nguyenanhquoc.example05.payloads.UserDTO;
+import com.nguyenanhquoc.example05.payloads.dto.UserDTO;
 import com.nguyenanhquoc.example05.security.JwtUtil;
 import com.nguyenanhquoc.example05.service.UserService;
 

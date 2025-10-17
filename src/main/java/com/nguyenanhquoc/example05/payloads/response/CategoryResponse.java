@@ -1,7 +1,8 @@
-package com.nguyenanhquoc.example05.payloads;
+package com.nguyenanhquoc.example05.payloads.response;
 
 import java.util.List;
 
+import com.nguyenanhquoc.example05.payloads.dto.CategoryDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,9 +10,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserResponse {
+public class CategoryResponse {
 
-    private List<UserDTO> content;
+    private List<CategoryDTO> content;
     private Integer pageNumber;
     private Integer pageSize;
     private Long totalElements;

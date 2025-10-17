@@ -1,7 +1,7 @@
 package com.nguyenanhquoc.example05.service;
 
-import com.nguyenanhquoc.example05.payloads.UserDTO;
-import com.nguyenanhquoc.example05.payloads.UserResponse;
+import com.nguyenanhquoc.example05.payloads.dto.UserDTO;
+import com.nguyenanhquoc.example05.payloads.response.UserResponse;
 
 public interface UserService {
 

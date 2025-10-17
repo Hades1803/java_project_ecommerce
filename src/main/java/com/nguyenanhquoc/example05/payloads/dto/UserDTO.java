@@ -1,4 +1,4 @@
-package com.nguyenanhquoc.example05.payloads;
+package com.nguyenanhquoc.example05.payloads.dto;
 
 import java.util.HashSet;
 import java.util.Set;

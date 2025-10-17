@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nguyenanhquoc.example05.config.AppConstants;
-import com.nguyenanhquoc.example05.payloads.UserDTO;
-import com.nguyenanhquoc.example05.payloads.UserResponse;
+import com.nguyenanhquoc.example05.payloads.dto.UserDTO;
+import com.nguyenanhquoc.example05.payloads.response.UserResponse;
 import com.nguyenanhquoc.example05.service.UserService;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
@@ -35,7 +35,7 @@ public class UserController {
             @RequestParam(name = "sortOrder", defaultValue = AppConstants.SORT_DIR, required = false) String sortOrder) {
         
         UserResponse userResponse = userService.getAllUsers(pageNumber, pageSize, sortBy, sortOrder);
-        return new ResponseEntity<UserResponse>(userResponse, HttpStatus.OK); // Changed from FOUND to OK
+        return new ResponseEntity<UserResponse>(userResponse, HttpStatus.OK);
     }
 
     @GetMapping("/public/users/{userId}")
